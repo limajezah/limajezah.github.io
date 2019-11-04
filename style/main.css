@@ -1,0 +1,178 @@
+body{
+	background-image: url(../images/sl.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+*{
+	box-sizing: border-box;
+}
+/*Navigation Bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+/*End Here*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-top: 50px;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+header{
+	box-sizing: inherit;
+	height: 510px;
+	display: block;
+}
+.heading{
+	color: #FFF !important;
+	text-align: center !important;
+	display: block;
+	position: relative;
+	width: 100%;
+	padding: 120px 60px;
+}
+.intro{
+	font-family: sans-serif;
+	font-size: 80px;
+	color: #F7CAC9;
+	margin: 0;
+}
+.headIntro{
+	font-family: sans-serif;
+	font-size: 14px;
+}
+img{
+	margin-top: 60px;
+	width: 10%;
+}
+footer{
+   position: absolute;
+   width: 100%;
+   background-color: #333;
+   color: white;
+   text-align: center;
+   right: 0px;
+}
+#findmore{
+	height: 600px;
+}
+.aboutUS{
+	text-align: center !important;
+	margin-top: 150px;
+	font-size: 50px;
+	color: white;
+	font-family: sans-serif;
+}
+.hd{
+	background-color: rgba(0,0,0,0.3);
+	display: block;
+	box-sizing: inherit;
+	width: 1340px;
+	height: 550px;
+	right: 0;
+}
+.engage{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 13px;
+	color: #FFF;
+}
